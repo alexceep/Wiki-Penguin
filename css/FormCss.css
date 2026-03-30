@@ -1,0 +1,59 @@
+		body {
+		    background-image: url(../img/FundoForm.png);
+		    background-size: cover;
+		    background-repeat: no-repeat;
+		    margin: 0px;
+		}
+
+		#form {
+		    background-color: #E2E2E2;
+		    border-radius: 25px;
+		    padding: 5vh;
+		    min-width: 28vw;
+		}
+
+		h2 {
+		    font-weight: bold;
+		    text-align: justify;
+		}
+
+		a {
+		    text-decoration: none;
+		    color: #0073A5;
+		}
+		
+		a:hover{
+			color: #0dcaf0;
+			transition: 0.1s;
+		}
+
+		input[type=password],
+		input[type=email],
+		input[type=text] {
+		    border-radius: 10px;
+		    padding: 2vh;
+		    border: 0px solid;
+		}
+
+		.btn-info,
+		.btn-info:hover,
+		.btn-info:active {
+		    color: white;
+		    font-size: 20px;
+		}
+
+		#erro {
+		    background-color: #E2E2E2;
+		    border-radius: 25px;
+		    padding: 5vh;
+		}
+
+		#erro img {
+		    max-height: 50vh;
+		}
+
+		#erro button {
+		    position: absolute;
+		    bottom: 0;
+		    right: 0;
+		}

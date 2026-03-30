@@ -1,0 +1,252 @@
+@font-face {
+    font-family: BUMBASTIKA;
+    src: url('../font/BUMBASTIKA.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    background-color: #dfdfdf;
+}
+
+.nav-pills li a:hover,
+.active {
+    background-color: #00B3FF;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.nav-pills li a:hover {
+    scale: 1.05;
+    transition: 0.1s;
+}
+
+.menu {
+    background-color: #0097D8; 
+    box-shadow: 1.5px 0px 2px rgba(0,0,0,0.3);   
+}
+
+.menu img {
+    background-color: #00B3FF;
+    padding: 3px;
+    border-radius: 360px;
+    height: 80px;
+    width: 80px;
+}
+
+.menu li img {
+    background-color: #00B3FF;
+    padding: 3px;
+    border-radius: 360px;
+    height: 50px;
+    width: 50px;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #E2E2E2;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #00B3FF;
+    border-radius: 20px;
+    border: 3px solid #00B3FF;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #0097D8;
+}
+
+.menuH {
+    background-image: url(../img/FundoFormBLUR.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 30vh;
+    margin-bottom: 2.5vh;
+    position: relative;
+    box-shadow: inset 30px 0px 30px #dfdfdf, inset -30px 0px 30px #dfdfdf;
+}
+
+.btn-info {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-right: 10vh;
+    color: white;
+    width: 100px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.btn-light {
+    margin-left: 30vh;
+    width: 100px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    bottom: 0;
+}
+
+.menuHactive {
+    background-color: #dfdfdf;
+    ;
+    font-weight: bold;
+    border-radius: 5px;
+    padding-top: 15px;
+    margin-left: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    border-start-end-radius: 30px;
+    border-start-start-radius: 30px;
+    border-end-start-radius: 0;
+    border-end-end-radius: 0;
+}
+
+.menuHactive img {
+    height: 45px;
+    width: 45px;
+}
+
+.menuHactive p {
+    font-family: BUMBASTIKA;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0073A5;
+    text-shadow: -1px 1px 0 #0073A5,
+        1px 1px 0 #0073A5,
+        1px -1px 0 #0073A5,
+        -1px -1px 0 #0073A5;
+    font-size: 25px;
+}
+
+
+
+.conteudo {
+    background-color: #0097D8; 
+    margin-top: 0px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 5px solid white;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+}
+
+.quiz {
+    background: radial-gradient( circle at center , #1293ee 50%, #00529f 100%);
+    margin-top: 0px;
+    padding: 30px;
+    border-radius: 5px;
+    border: 5px solid white;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.3);
+}
+
+.conteudo h3 {
+    font-family: BUMBASTIKA;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #0073A5;
+  
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.quiz h3 {
+    font-family: BUMBASTIKA;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #0073A5;
+  
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.quiz h4 {
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.conteudo img{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #00B3FF;
+    background: radial-gradient( circle at center , #1293ee 50%, #00529f 100%);
+}
+
+.quiz img{
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 90%;
+}
+
+.title {
+    font-family: BUMBASTIKA;
+    color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0073A5;
+    text-shadow: -1px 1px 0 #0073A5,
+        1px 1px 0 #0073A5,
+        1px -1px 0 #0073A5,
+        -1px -1px 0 #0073A5;
+}
+
+.conteudo p {
+    color:white;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.quiz p {
+    color:white;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.next {
+    font-family: BUMBASTIKA;
+    color: white;
+    text-decoration: none;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #0073A5;
+    background-color: #00B3FF;
+    font-size:20px;
+    padding:20px;
+    border-radius: 360px;
+    margin-top: 20px;
+}
+
+.next:hover{
+    filter: brightness(1.1);
+}
